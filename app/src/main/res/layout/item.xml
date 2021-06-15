@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="119dp"
+                android:layout_height="142dp"
+                android:padding="4dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TvTitle"
+                        android:layout_width="290dp"
+                        android:layout_height="wrap_content"
+                        android:text="dasdadasd"
+                        android:textColor="@color/Textblack"
+                        android:textSize="13dp" />
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lblIssue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Issue_id:"
+                        android:textColor="@color/Textblack"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:id="@+id/TvIssue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:text="10"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:id="@+id/lblVolume"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:text="Vol:"
+                        android:textColor="@color/Textblack"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:id="@+id/TvVolume"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:text="10"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:id="@+id/lblnumero"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:text="Num:"
+                        android:textColor="@color/Textblack"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:id="@+id/Tvnumero"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:text="10"
+                        android:textSize="13dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/lblyear"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Year:"
+                        android:textColor="@color/Textblack"
+                        android:textSize="13dp" />
+                    <TextView
+                        android:id="@+id/Tvyear"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:text="10"
+                        android:textSize="13dp" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/lbdate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Date:"
+                        android:textColor="@color/Textblack"
+                        android:textSize="13dp" />
+                    <TextView
+                        android:id="@+id/Tvdate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:text="10"
+                        android:textSize="13dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/lbdoi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Doi:"
+                        android:textColor="@color/Textblack"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:id="@+id/Tvdoi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:text="10"
+                        android:textSize="13dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
